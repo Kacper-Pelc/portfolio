@@ -1,0 +1,17 @@
+.fourpage {
+    width: 40%;
+    height: 600px;
+    margin-top: 30px;
+    background-color: #f7f4f7;
+
+    &-title {
+        font-size: 50px;
+        color: #000000dd;
+    }
+
+    &-container {
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+}

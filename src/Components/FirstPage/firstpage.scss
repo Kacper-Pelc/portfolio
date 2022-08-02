@@ -1,0 +1,16 @@
+a:link {
+    text-decoration: none;
+}
+
+.firstpage {
+    width: 40%;
+    height: 600px;
+    margin-top: 30px;
+    background-color: #f7f4f7;
+
+    &-container {
+        display: flex;
+        justify-content: space-evenly;
+        color: black;
+    }
+}

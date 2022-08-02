@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+
+    &-dashboard {
+        background-color: #f7f4f7;
+        flex-direction: row;
+        margin-top: 10%;
+        height: 600px;
+        width: 100%;
+        max-width: 300px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        &-img {
+            padding-top: 10px;
+            width: 90%;
+            height: 45%;
+            border-radius: 9999px;
+        }
+
+        &-text {
+            display: block;
+        }
+    }
+
+}
